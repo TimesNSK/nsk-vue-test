@@ -1,0 +1,10 @@
+{
+  "id1": [
+    "Test message <b>1</b>",
+    "Test message <b>2</b>"
+  ],
+  "id2": [
+    "Test message <i>1</i> with math <math>x</math>",
+    "Test message <i>2</i> with math <math>x+y</math>"
+  ]
+}

@@ -1,0 +1,25 @@
+/** Base colors */
+
+$text-color: #ffffff;
+$math-color: rgb(192, 192, 255);
+
+$hover-color: rgb(77, 77, 77);
+$active-color: #191970;
+
+$btn-hover-color: rgb(122, 122, 177);
+
+$border-color: rgb(55, 55, 55);
+
+$warn-color: #b71c1c;
+$error-color: #b71c1c;
+$success-color: #138013;
+
+/** Background colors */
+
+$bg-gray: rgb(44, 44, 44);
+$bg-dark: rgb(33, 33, 33);
+
+/** Other */
+
+$padding: 12px;
+$transition: color .2s, background .2s, opacity .2s;

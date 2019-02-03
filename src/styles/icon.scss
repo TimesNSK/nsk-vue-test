@@ -1,0 +1,68 @@
+@import "variables";
+
+.icon {
+
+  &:before {
+    font: normal normal normal 12px/1 FontAwesome;
+    display: inline-block;
+    color: $text-color;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 18px;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    margin-right: 4px;
+    transition: $transition;
+  }
+
+  &:empty:before {
+    margin-right: 0;
+  }
+
+  &:hover:before {
+    color: $btn-hover-color;
+  }
+
+  &:active:before {
+    //transition: none;
+    color: $active-color;
+  }
+
+  //* icons */
+
+  &.save:before {
+    content: "\f0c7";
+  }
+
+  &.edit:before {
+    content: "\f040";
+  }
+
+  &.add:before {
+    content: "\f067";
+  }
+
+  &.remove:before {
+    content: "\f014";
+  }
+
+  &.cancel:before {
+    content: "\f00d";
+  }
+
+  &.update:before {
+    content: "\f021";
+  }
+
+  &.download:before {
+    position: relative;
+    top: 1px;
+    content: "\f019";
+  }
+
+  &.upload:before {
+    content: "\f093";
+  }
+
+}
